@@ -1,0 +1,42 @@
+.profileCard {
+  border-radius: 1.2rem;
+  border: 1px solid #e6eaf2;
+  padding: 2.5rem 2.5rem;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+}
+.name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+.phone, .email {
+  margin: 0.5rem 0 0 0;
+  color: #6B7687;
+}
+.logoutBtn {
+  background: #f5f7fa;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.7rem 2rem;
+  color: #1A2341;
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1.5rem;
+}
+.notAuth {
+  font-size: 1.2rem;
+  color: #6B7687;
+  text-align: center;
+  margin-top: 2rem;
+} 

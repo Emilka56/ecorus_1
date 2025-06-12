@@ -1,0 +1,99 @@
+.cardsWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 2vw;
+  margin: 4vh auto 0 auto;
+  width: 100vw;
+  max-width: 100vw;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid #E6EAF2;
+  border-radius: 1rem;
+  box-shadow: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 28vw;
+  min-width: 18rem;
+  max-width: 32vw;
+  padding: 2.5vh 2vw;
+  transition: box-shadow 0.2s, transform 0.2s;
+  position: relative;
+}
+
+.cardText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 1 0;
+  gap: 1.2vh;
+}
+
+.cardText h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #000B26;
+  margin: 0 0 0.5rem 0;
+}
+
+.cardText p {
+  font-size: 1rem;
+  color: #000B268F;
+  margin: 0 0 1.5rem 0;
+  max-width: 18vw;
+}
+
+.cardBtn {
+  border: none;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: auto;
+}
+
+@media (max-width: 768px) {
+  .cardsWrapper {
+    flex-direction: column;
+    gap: 1.2rem;
+    margin: 2vh 0 0 0;
+    width: 100vw;
+    max-width: 100vw;
+    align-items: stretch;
+    padding: 0 0.5rem;
+    box-sizing: border-box;
+
+  }
+  .card {
+    width: 100%;
+    min-width: unset;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.2rem 1rem;
+    border-radius: 1rem;
+  }
+  .cardText {
+    gap: 0.7rem;
+  }
+  .cardText h3 {
+    font-size: 1.2rem;
+  }
+  .cardText p {
+    font-size: 0.98rem;
+    max-width: 100%;
+  }
+  .cardBtn {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+  }
+}
+
+

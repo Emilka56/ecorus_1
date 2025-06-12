@@ -1,0 +1,12 @@
+:root{
+    --background-color: #FFFFFF;
+    --button-color: #07C88E;
+    --text-color: #000B26A3;
+    --button-text-color: #FFFFFF;
+    /*--navigation-text-color: #222222;*/
+    --icons-color: #000000;
+    --font-regular: "Inter-Regular";
+    --font-semibold: "Inter-SemiBold";
+    --font-bold: "Inter-Bold";
+    --border-color: #1222581F;
+}

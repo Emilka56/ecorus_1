@@ -1,0 +1,23 @@
+.footer {
+  width: 100vw;
+  box-sizing: border-box;
+  padding: 2vh 0 2vh 13vw;
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  color: #6B7687;
+  border-top: 1px solid #e6eaf2;
+}
+
+.info {
+  display: flex;
+  gap: 3vw;
+  align-items: center;
+}
+
+.icon {
+  width: 1.3rem;
+  height: 1.3rem;
+  margin-right: 0.7rem;
+  vertical-align: middle;
+}

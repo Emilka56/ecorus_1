@@ -1,0 +1,16 @@
+
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url('Inter_18pt-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url('Inter_18pt-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Inter-SemiBold';
+    src: url('Inter_18pt-SemiBold.ttf') format('truetype');
+}
+

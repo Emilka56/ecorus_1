@@ -1,0 +1,108 @@
+.overlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(30, 36, 51, 0.25);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: #fff;
+  border-radius: 1.2rem;
+  box-shadow: 0 0.5rem 2rem 0 rgba(30,36,51,0.10);
+  padding: 2.5rem 2.5rem 2rem 2.5rem;
+  min-width: 340px;
+  max-width: 95vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.close {
+  position: absolute;
+  top: 1.2rem;
+  right: 1.2rem;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #1A2341;
+  cursor: pointer;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+input {
+  border: 1px solid #e6eaf2;
+  border-radius: 0.7rem;
+  padding: 1rem;
+  font-size: 1.1rem;
+  outline: none;
+}
+
+.greenBtn {
+  background: #07C88E;
+  color: #fff;
+  border: none;
+  border-radius: 0.7rem;
+  padding: 1rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.2rem;
+}
+
+.link {
+  background: none;
+  border: none;
+  color: #07C88E;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.error {
+  color: #e74c3c;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.inputError {
+  border: 1px solid #e74c3c;
+}
+
+.errorMsg {
+  color: #e74c3c;
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+}
+
+.smsInfo {
+  font-size: 1rem;
+  color: #6B7687;
+  margin-bottom: 1rem;
+}
+
+.phone {
+  color: #07C88E;
+  font-weight: 600;
+}
